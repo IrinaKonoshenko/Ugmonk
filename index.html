@@ -11,10 +11,53 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <header></header>
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <div class="header__logo">
+            <div class="header__logo-txt">Ugmonk</div>
+            <img
+              src="./image/icon and img/logo.svg"
+              alt="logo"
+              class="header__logo-img"
+            />
+          </div>
+          <nav class="header__menu">
+            <ul class="header__list list">
+              <li class="header__item">Men</li>
+              <li class="header__item">Women</li>
+              <li class="header__item">Objects</li>
+              <li class="header__item">Analog</li>
+            </ul>
+          </nav>
+          <div class="header__rightblock">
+            <ul class="header__rightblock-list list">
+              <li class="header__rightblock-item"><a href="">Journal</a></li>
+              <li class="header__rightblock-item"><a href="">Search</a></li>
+            </ul>
+            <ul>
+              <li class="header__rightblock-item">Login</li>
+              <li class="header__rightblock-item">
+                <button>
+                  <svg width="38px" height="28px">
+                    <use href="./image/symbol-defs.svg#icon-basket"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <main></main>
   </body>
 </html>
