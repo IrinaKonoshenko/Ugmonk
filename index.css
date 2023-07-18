@@ -28,6 +28,7 @@ body {
 
 * {
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 .link {
   text-decoration: none;
@@ -42,16 +43,9 @@ body {
   width: 1180px;
   margin: 0 auto;
 }
-:root {
-  --white-color: #fff;
-  --text-color: #2a2a2a;
-  --black-color: #1a1a1a;
-  --grey-color: #b3b3b3;
-  --hint-color: #a8a8a8;
-  --btn-color: #f7f7f7;
-  --circle-back: #7e6e45;
-  --circle-color: #eae7d9;
-  --notepad-back: #312f2e;
-  --mans-back: #f8f6f2;
-  --input-back: #ced3ca;
+
+.header {
+  background-color: #fff;
+}
+.header__content {
 }
